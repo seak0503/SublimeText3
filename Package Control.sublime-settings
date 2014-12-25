@@ -1,0 +1,41 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2"
+	],
+	"installed_packages":
+	[
+		"Abacus",
+		"AdvancedNewFile",
+		"Alignment",
+		"All Autocomplete",
+		"ApacheConf.tmLanguage",
+		"BlockCursorEverywhere",
+		"BoundKeys",
+		"BracketHighlighter",
+		"BufferScroll",
+		"Dotfiles Syntax Highlighting",
+		"Emmet",
+		"Local History",
+		"MacTerminal",
+		"Markdown Preview",
+		"Package Control",
+		"Python Auto-Complete",
+		"Python Flake8 Lint",
+		"Search Stack Overflow",
+		"SideBarEnhancements",
+		"sublime-github",
+		"Surround",
+		"Theme - itg.flat",
+		"TrailingSpaces",
+		"Vintageous"
+	],
+	"repositories":
+	[
+		"https://github.com/jlangston/BlockCursorEverywhere.git"
+	]
+}

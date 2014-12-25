@@ -1,0 +1,6 @@
+{
+  // 初期値
+	"version": 7,
+  // スクロール位置を同期
+  "synch_scroll": false,
+}

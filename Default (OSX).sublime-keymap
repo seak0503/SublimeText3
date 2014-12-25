@@ -1,0 +1,114 @@
+[
+    /*
+    vim関連
+     */
+    // 1行下へのスクロールをvim調にする
+    { "keys": ["ctrl+e"], "command": "scroll_lines", "args": {"amount": -1.0} },
+    // 短形v
+    // optionを押しながらドラッグ(ショートカット設定が作成できないので、ここでは操作法を説明)
+
+
+    /*
+    ファイル関連
+     */
+    // 拡張パッケージAdvancedNewFileにおける、新規ファイル保存
+    { "keys": ["ctrl+alt+n"], "command": "advanced_new_file_new"},
+
+
+    /*
+    編集関連
+     */
+    // 拡張パッケージTrailing Spacesを使って、行末の半角スペースを削除する
+    { "keys": ["ctrl+shift+s+d"], "command": "delete_trailing_spaces" },
+    // 拡張パッケージTrailing Spacesにおる、半角スペースハイライトの表示オンオフ切り替え
+    { "keys": ["ctrl+shift+t+s"], "command": "toggle_trailing_spaces" },
+    // Reindent
+    { "keys": ["ctrl+r"], "command": "reindent" },
+    // 拡張パッケージAlignmentを使って、選択範囲のコード整形を行う
+    { "keys": ["ctrl+alt+a"], "command": "alignment"},
+
+    /*
+    コード関連
+     */
+    // 拡張パッケージMacTerminalにおける、/iTerm起動
+    { "keys": ["ctrl+shift+t"], "command": "open_mac_terminal" },
+    // コード補完を表示
+    { "keys": ["ctrl+space"], "command": "auto_complete" },
+    // プログラムを実行する
+    { "keys": ["ctrl+b"], "command": "build" },
+    // htmlタグを閉じる
+    { "keys": ["alt+."], "command": "close_tag" },
+    // タグの中身を選択する
+    { "keys": ["ctrl+shift+a"], "command": "expand_selection", "args": {"to": "tag"} },
+
+
+    /*
+    検索・移動関連
+     */
+    // コマンドパレットを表示する
+    { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+
+
+    /*
+    表示関連
+     */
+    // 分割せず、１画面にする
+   {
+        "keys": ["alt+shift+1"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1]]
+        }
+    },
+    // 画面を横に2分割する
+    {
+        "keys": ["alt+shift+2"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 1.0],
+            "rows": [0.0, 0.5, 1.0],
+            "cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+        }
+    },
+    // 画面を縦に２分割する
+    {
+        "keys": ["alt+shift+ctrl+2"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 0.5, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+        }
+    },
+    // 次のファイルに移動
+    { "keys": ["ctrl+shift+n"], "command": "next_view" },
+    // 前のファイルに移動
+    { "keys": ["ctrl+shift+p"], "command": "prev_view" },
+    // 画面移動
+    { "keys": ["alt+1"], "command": "focus_group", "args": { "group": 0 } },
+    { "keys": ["alt+2"], "command": "focus_group", "args": { "group": 1 } },
+    { "keys": ["alt+3"], "command": "focus_group", "args": { "group": 2 } },
+    { "keys": ["alt+4"], "command": "focus_group", "args": { "group": 3 } },
+    { "keys": ["alt+5"], "command": "focus_group", "args": { "group": 4 } },
+    { "keys": ["alt+6"], "command": "focus_group<p></p>", "args": { "group": 5 } },
+    { "keys": ["alt+7"], "command": "focus_group", "args": { "group": 6 } },
+    { "keys": ["alt+8"], "command": "focus_group", "args": { "group": 7 } },
+    { "keys": ["alt+9"], "command": "focus_group", "args": { "group": 8 } },
+    // ファイルの画面移動
+    { "keys": ["ctrl+shift+1"], "command": "move_to_group", "args": { "group": 0 } },
+    { "keys": ["ctrl+shift+2"], "command": "move_to_group", "args": { "group": 1 } },
+    { "keys": ["ctrl+shift+3"], "command": "move_to_group", "args": { "group": 2 } },
+    { "keys": ["ctrl+shift+4"], "command": "move_to_group", "args": { "group": 3 } },
+    { "keys": ["ctrl+shift+5"], "command": "move_to_group", "args": { "group": 4 } },
+    { "keys": ["ctrl+shift+6"], "command": "move_to_group", "args": { "group": 5 } },
+    { "keys": ["ctrl+shift+7"], "command": "move_to_group", "args": { "group": 6 } },
+    { "keys": ["ctrl+shift+8"], "command": "move_to_group", "args": { "group": 7 } },
+    { "keys": ["ctrl+shift+9"], "command": "move_to_group", "args": { "group": 8 } },
+    // フルスクリーンにする
+    { "keys": ["ctrl+shift+f"], "command": "toggle_full_screen" },
+]

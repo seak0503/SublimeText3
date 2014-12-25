@@ -1,0 +1,5 @@
+{
+    "file_size_limit": 1073741824, // 1 GB
+    "history_retention": 90, // in days
+    "history_on_close": false // "true"にするとファイルを閉じる時のみ履歴保存
+}
