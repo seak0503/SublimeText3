@@ -4,8 +4,8 @@
      */
     // 1行下へのスクロールをvim調にする
     { "keys": ["ctrl+e"], "command": "scroll_lines", "args": {"amount": -1.0} },
-    // 短形v
-    // optionを押しながらドラッグ(ショートカット設定が作成できないので、ここでは操作法を説明)
+    // Redo
+    { "keys": ["ctrl+r"], "command": "redo_or_repeat" },
 
 
     /*
@@ -23,7 +23,7 @@
     // 拡張パッケージTrailing Spacesにおる、半角スペースハイライトの表示オンオフ切り替え
     { "keys": ["ctrl+shift+t+s"], "command": "toggle_trailing_spaces" },
     // Reindent
-    { "keys": ["ctrl+r"], "command": "reindent" },
+    { "keys": ["ctrl+shift+r"], "command": "reindent" },
     // 拡張パッケージAlignmentを使って、選択範囲のコード整形を行う
     { "keys": ["ctrl+alt+a"], "command": "alignment"},
 
