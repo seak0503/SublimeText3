@@ -26,6 +26,8 @@
     { "keys": ["ctrl+shift+r"], "command": "reindent" },
     // 拡張パッケージAlignmentを使って、選択範囲のコード整形を行う
     { "keys": ["ctrl+alt+a"], "command": "alignment"},
+    // 拡張パッケージSublimeERBを使って、<%=%>,<% %>,<%- -%>,<%= -%>,<%# %>,<% -%>を簡単に入力する
+    { "keys": ["ctrl+shift+."], "command": "erb"},
 
     /*
     コード関連
