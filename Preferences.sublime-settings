@@ -35,5 +35,6 @@
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true,
 	"vintage_ctrl_keys": true,
-	"vintage_start_in_command_mode": true
+	"vintage_start_in_command_mode": true,
+	"highlight_line": true,
 }
