@@ -14,6 +14,7 @@
 	"ensure_newline_at_eof_on_save": false,
 	"font_face": "Ricty",
 	"font_size": 18,
+	"highlight_line": true,
 	"ignored_packages":
 	[
 	],
@@ -35,6 +36,5 @@
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true,
 	"vintage_ctrl_keys": true,
-	"vintage_start_in_command_mode": true,
-	"highlight_line": true,
+	"vintage_start_in_command_mode": true
 }

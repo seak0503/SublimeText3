@@ -26,6 +26,7 @@
 		"Package Control",
 		"Python Auto-Complete",
 		"Python Flake8 Lint",
+		"rails_tutorial_snippets",
 		"Search Stack Overflow",
 		"SideBarEnhancements",
 		"sublime-github",
@@ -36,6 +37,7 @@
 	],
 	"repositories":
 	[
-		"https://github.com/jlangston/BlockCursorEverywhere.git"
+		"https://github.com/jlangston/BlockCursorEverywhere.git",
+		"https://github.com/mhartl/rails_tutorial_snippets"
 	]
 }
