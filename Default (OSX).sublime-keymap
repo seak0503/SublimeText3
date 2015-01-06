@@ -9,6 +9,21 @@
 
 
     /*
+    Rails関連
+     */
+    // 拡張パッケージSublimeRailsNavを使ってモデル、コントローラ、ビューなど、特定のディレクトリ
+    // にあるファイル一覧を表示可能にする
+    { "keys": ["ctrl+shift+m"], "command": "list_rails_models" },
+    { "keys": ["ctrl+shift+c"], "command": "list_rails_controllers" },
+    { "keys": ["ctrl+shift+v"], "command": "list_rails_views" },
+    { "keys": ["ctrl+shift+h"], "command": "list_rails_helpers" },
+    { "keys": ["ctrl+shift+x"], "command": "list_rails_fixtures" },
+    { "keys": ["ctrl+shift+t"], "command": "list_rails_tests" },
+    { "keys": ["ctrl+shift+i"], "command": "list_rails_javascripts" },
+    { "keys": ["ctrl+shift+y"], "command": "list_rails_stylesheets" },
+
+
+    /*
     ファイル関連
      */
     // 拡張パッケージAdvancedNewFileにおける、新規ファイル保存
@@ -33,7 +48,7 @@
     コード関連
      */
     // 拡張パッケージMacTerminalにおける、/iTerm起動
-    { "keys": ["ctrl+shift+t"], "command": "open_mac_terminal" },
+    { "keys": ["ctrl+shift+t+r"], "command": "open_mac_terminal" },
     // コード補完を表示
     { "keys": ["ctrl+space"], "command": "auto_complete" },
     // プログラムを実行する
