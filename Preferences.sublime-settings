@@ -17,6 +17,7 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"RubyTest"
 	],
 	"indent_guide_options":
 	[
