@@ -79,3 +79,13 @@ SublimeLinterに関して
 * 参考URL: https://github.com/SublimeLinter/SublimeLinter-shellcheck
 
 * 他にインストールするもの
+
+LiveReloadについて
+---------------------
+
+ファイルを保存すると、ブラウザを自動更新するパッケージです。
+
+LiveReloadを利用するにはブラウザ側にエクステンションをインストールする
+必要があります。
+
+ダウンロードは[こちら](http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-)から
