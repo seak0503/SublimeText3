@@ -1,7 +1,6 @@
 {
 	"in_process_packages":
 	[
-		"RubyTest"
 	],
 	"installed_dependencies":
 	[
@@ -30,7 +29,6 @@
 		"rails_tutorial_snippets",
 		"RSpec",
 		"Ruby Slim",
-		"RubyTest",
 		"Search Stack Overflow",
 		"SideBarEnhancements",
 		"sublime-github",
