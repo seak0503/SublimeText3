@@ -22,6 +22,18 @@
     { "keys": ["ctrl+shift+i"], "command": "list_rails_javascripts" },
     { "keys": ["ctrl+shift+y"], "command": "list_rails_stylesheets" },
 
+    /*
+    HTML,CSS関連
+     */
+    // 拡張パッケージ Brower Refleshを使って、command+sでHTMLファイルを更新すると自動的にブラウザを更新するようにする
+    {
+        "keys": ["super+s"], "command": "browser_refresh", "args": {
+            "auto_save": true,
+            "delay": 0.0,
+            "activate_browser": true,
+            "browser_name" : "Safari"
+        }
+    },
 
     /*
     ファイル関連
