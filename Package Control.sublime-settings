@@ -2,11 +2,6 @@
 	"in_process_packages":
 	[
 	],
-	"installed_dependencies":
-	[
-		"0_package_control_loader",
-		"bz2"
-	],
 	"installed_packages":
 	[
 		"Abacus",
@@ -46,6 +41,7 @@
 		"Surround",
 		"Theme - itg.flat",
 		"TrailingSpaces",
+		"View In Browser",
 		"Vintageous"
 	],
 	"repositories":

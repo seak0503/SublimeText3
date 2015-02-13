@@ -128,4 +128,6 @@
     { "keys": ["ctrl+shift+9"], "command": "move_to_group", "args": { "group": 8 } },
     // フルスクリーンにする
     { "keys": ["ctrl+shift+f"], "command": "toggle_full_screen" },
+    // 拡張パッケージView in Browserを使ってSafariを開く
+    { "keys": [ "ctrl+option+s" ], "command": "view_in_browser", "args": { "browser": "safari" } },
 ]
