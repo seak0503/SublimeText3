@@ -1,0 +1,12 @@
+{
+  // [ctrl + e]の無効化
+  "disabled_keymap_actions": "expand_abbreviation",
+
+  // 言語の設定
+  "snippets": {
+    "variables": {
+      "lang": "ja",
+      "locale": "ja-JP"
+    }
+  }
+}
