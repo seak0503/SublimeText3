@@ -1,5 +1,12 @@
 [
     /*
+    コマンドパレット関連
+     */
+    // コマンドパレットを表示する
+    { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+
+
+    /*
     vim関連
      */
     // 1行下へのスクロールをvim調にする
@@ -22,9 +29,12 @@
     { "keys": ["ctrl+shift+i"], "command": "list_rails_javascripts" },
     { "keys": ["ctrl+shift+y"], "command": "list_rails_stylesheets" },
 
+
     /*
     HTML,CSS関連
      */
+    // 拡張パッケージView in Browserを使ってSafariを開く
+    { "keys": [ "ctrl+option+s" ], "command": "view_in_browser", "args": { "browser": "safari" } },
     // 拡張パッケージ Brower Refleshを使って、command+sでHTMLファイルを更新すると自動的にブラウザを更新するようにする
     {
         "keys": ["super+s"], "command": "browser_refresh", "args": {
@@ -34,6 +44,15 @@
             "browser_name" : "Safari"
         }
     },
+    // 拡張パッケージColorpickerを使ってSublime Text内でカラーピッカーを使用できるようにする
+    { "keys": ["ctrl+shift+c"], "command": "color_pick" },
+    // 拡張パッケージAlignmentを使って、選択範囲のコード整形を行う
+    { "keys": ["ctrl+alt+a"], "command": "alignment"},
+    // htmlタグを閉じる
+    { "keys": ["alt+."], "command": "close_tag" },
+    // タグの中身を選択する
+    { "keys": ["ctrl+shift+a"], "command": "expand_selection", "args": {"to": "tag"} },
+
 
     /*
     ファイル関連
@@ -51,12 +70,9 @@
     { "keys": ["ctrl+shift+t+s"], "command": "toggle_trailing_spaces" },
     // Reindent
     { "keys": ["ctrl+shift+r"], "command": "reindent" },
-    // 拡張パッケージAlignmentを使って、選択範囲のコード整形を行う
-    { "keys": ["ctrl+alt+a"], "command": "alignment"},
     // 拡張パッケージSublimeERBを使って、<%=%>,<% %>,<%- -%>,<%= -%>,<%# %>,<% -%>を簡単に入力する
     { "keys": ["ctrl+shift+."], "command": "erb"},
-    // 拡張パッケージColorpickerを使ってSublime Text内でカラーピッカーを使用できるようにする
-    { "keys": ["ctrl+shift+c"], "command": "color_pick" },
+
 
     /*
     コード関連
@@ -67,17 +83,6 @@
     { "keys": ["ctrl+space"], "command": "auto_complete" },
     // プログラムを実行する
     { "keys": ["ctrl+b"], "command": "build" },
-    // htmlタグを閉じる
-    { "keys": ["alt+."], "command": "close_tag" },
-    // タグの中身を選択する
-    { "keys": ["ctrl+shift+a"], "command": "expand_selection", "args": {"to": "tag"} },
-
-
-    /*
-    検索・移動関連
-     */
-    // コマンドパレットを表示する
-    { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
 
 
     /*
@@ -142,6 +147,4 @@
     { "keys": ["ctrl+shift+9"], "command": "move_to_group", "args": { "group": 8 } },
     // フルスクリーンにする
     { "keys": ["ctrl+shift+f"], "command": "toggle_full_screen" },
-    // 拡張パッケージView in Browserを使ってSafariを開く
-    { "keys": [ "ctrl+option+s" ], "command": "view_in_browser", "args": { "browser": "safari" } },
 ]
