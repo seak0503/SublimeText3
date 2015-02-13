@@ -43,6 +43,8 @@
     { "keys": ["ctrl+alt+a"], "command": "alignment"},
     // 拡張パッケージSublimeERBを使って、<%=%>,<% %>,<%- -%>,<%= -%>,<%# %>,<% -%>を簡単に入力する
     { "keys": ["ctrl+shift+."], "command": "erb"},
+    // 拡張パッケージColorpickerを使ってSublime Text内でカラーピッカーを使用できるようにする
+    { "keys": ["ctrl+shift+c"], "command": "color_pick" },
 
     /*
     コード関連
