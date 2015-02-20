@@ -44,6 +44,15 @@
             "browser_name" : "Safari"
         }
     },
+    // 拡張パッケージGoto-CSS-Declarationを使ってCSSの宣言を探す
+    {
+        "keys": ["super+right"], "command": "goto_css_declaration",
+        "args": {"goto": "next"}
+    },
+    {
+        "keys": ["super+left"],  "command": "goto_css_declaration",
+        "args": {"goto": "prev"}
+    },
     // 拡張パッケージColorpickerを使ってSublime Text内でカラーピッカーを使用できるようにする
     { "keys": ["ctrl+shift+c"], "command": "color_pick" },
     // 拡張パッケージAlignmentを使って、選択範囲のコード整形を行う
