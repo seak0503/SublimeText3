@@ -62,6 +62,15 @@
     // タグの中身を選択する
     { "keys": ["ctrl+shift+a"], "command": "expand_selection", "args": {"to": "tag"} },
 
+    /*
+    SASS(SCSS), LESS関連
+    */
+    // 拡張パッケージSCSSでスニペットを使う
+    // @include: +を入力してからTab
+    // @extend:  ++を入力してからTab
+    // @import:  +++を入力してからTab
+    // @mixin:   =を入力してからTab
+    // #{ }:     #を入力してからTab
 
     /*
     ファイル関連
