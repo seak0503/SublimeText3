@@ -35,6 +35,8 @@
      */
     // 拡張パッケージView in Browserを使ってSafariを開く
     { "keys": [ "ctrl+option+s" ], "command": "view_in_browser", "args": { "browser": "safari" } },
+    // 拡張パッケージView in Browserを使ってChromeを開く
+    { "keys": [ "ctrl+option+c" ], "command": "view_in_browser", "args": { "browser": "safari" } },
     // 拡張パッケージ Brower Refleshを使って、command+sでHTMLファイルを更新すると自動的にブラウザを更新するようにする
     {
         "keys": ["super+s"], "command": "browser_refresh", "args": {
