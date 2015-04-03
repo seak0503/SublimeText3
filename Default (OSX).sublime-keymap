@@ -95,12 +95,19 @@
     /*
     コード関連
      */
+    // SublimeCodeIntel: コード補完
+    { "keys": ["shift+ctrl+space"], "command": "code_intel_auto_complete" },
+    // SublimeCodeIntel: 定義元へジャンプ
+    { "keys": ["super+alt+ctrl+up"], "command": "goto_python_definition"},
+    // SublimeCodeIntel: ジャンプ先から戻る
+    { "keys": ["super+alt+ctrl+left"], "command": "back_to_python_definition"},
     // 拡張パッケージMacTerminalにおける、/iTerm起動
     { "keys": ["ctrl+shift+t+r"], "command": "open_mac_terminal" },
     // コード補完を表示
     { "keys": ["ctrl+space"], "command": "auto_complete" },
     // プログラムを実行する
     { "keys": ["ctrl+b"], "command": "build" },
+
 
 
     /*
