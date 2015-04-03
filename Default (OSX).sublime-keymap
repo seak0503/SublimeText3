@@ -3,7 +3,7 @@
     コマンドパレット関連
      */
     // コマンドパレットを表示する
-    { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["super+ctrl+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
 
 
     /*
@@ -20,14 +20,14 @@
      */
     // 拡張パッケージSublimeRailsNavを使ってモデル、コントローラ、ビューなど、特定のディレクトリ
     // にあるファイル一覧を表示可能にする
-    { "keys": ["ctrl+shift+m"], "command": "list_rails_models" },
-    { "keys": ["ctrl+shift+c"], "command": "list_rails_controllers" },
-    { "keys": ["ctrl+shift+v"], "command": "list_rails_views" },
-    { "keys": ["ctrl+shift+h"], "command": "list_rails_helpers" },
-    { "keys": ["ctrl+shift+x"], "command": "list_rails_fixtures" },
-    { "keys": ["ctrl+shift+t"], "command": "list_rails_tests" },
-    { "keys": ["ctrl+shift+i"], "command": "list_rails_javascripts" },
-    { "keys": ["ctrl+shift+y"], "command": "list_rails_stylesheets" },
+    { "keys": ["super+ctrl+m"], "command": "list_rails_models" },
+    { "keys": ["super+ctrl+c"], "command": "list_rails_controllers" },
+    { "keys": ["super+ctrl+v"], "command": "list_rails_views" },
+    { "keys": ["super+ctrl+h"], "command": "list_rails_helpers" },
+    { "keys": ["super+ctrl+x"], "command": "list_rails_fixtures" },
+    { "keys": ["super+ctrl+t"], "command": "list_rails_tests" },
+    { "keys": ["super+ctrl+i"], "command": "list_rails_javascripts" },
+    { "keys": ["super+ctrl+y"], "command": "list_rails_stylesheets" },
 
 
     /*
@@ -54,13 +54,13 @@
         "args": {"goto": "prev"}
     },
     // 拡張パッケージColorpickerを使ってSublime Text内でカラーピッカーを使用できるようにする
-    { "keys": ["ctrl+shift+c"], "command": "color_pick" },
+    { "keys": ["super+shift+c"], "command": "color_pick" },
     // 拡張パッケージAlignmentを使って、選択範囲のコード整形を行う
-    { "keys": ["ctrl+alt+a"], "command": "alignment"},
+    { "keys": ["super+ctrl+a"], "command": "alignment"},
     // htmlタグを閉じる
-    { "keys": ["alt+."], "command": "close_tag" },
+    { "keys": ["super+alt+."], "command": "close_tag" },
     // タグの中身を選択する
-    { "keys": ["ctrl+shift+a"], "command": "expand_selection", "args": {"to": "tag"} },
+    { "keys": ["super+shift+a"], "command": "expand_selection", "args": {"to": "tag"} },
 
     /*
     SASS(SCSS), LESS関連
@@ -83,9 +83,9 @@
     編集関連
      */
     // 拡張パッケージTrailing Spacesを使って、行末の半角スペースを削除する
-    { "keys": ["ctrl+shift+s+d"], "command": "delete_trailing_spaces" },
+    { "keys": ["ctrl+shift+t"], "command": "delete_trailing_spaces" },
     // 拡張パッケージTrailing Spacesにおる、半角スペースハイライトの表示オンオフ切り替え
-    { "keys": ["ctrl+shift+t+s"], "command": "toggle_trailing_spaces" },
+    { "keys": ["ctrl+shift+d"], "command": "toggle_trailing_spaces" },
     // Reindent
     { "keys": ["ctrl+shift+r"], "command": "reindent" },
     // 拡張パッケージSublimeERBを使って、<%=%>,<% %>,<%- -%>,<%= -%>,<%# %>,<% -%>を簡単に入力する
@@ -102,12 +102,11 @@
     // SublimeCodeIntel: ジャンプ先から戻る
     { "keys": ["super+alt+ctrl+left"], "command": "back_to_python_definition"},
     // 拡張パッケージMacTerminalにおける、/iTerm起動
-    { "keys": ["ctrl+shift+t+r"], "command": "open_mac_terminal" },
+    { "keys": ["super+shift+t"], "command": "open_mac_terminal" },
     // コード補完を表示
     { "keys": ["ctrl+space"], "command": "auto_complete" },
     // プログラムを実行する
-    { "keys": ["ctrl+b"], "command": "build" },
-
+    { "keys": ["super+b"], "command": "build" },
 
 
     /*
@@ -115,7 +114,7 @@
      */
     // 分割せず、１画面にする
    {
-        "keys": ["alt+shift+1"],
+        "keys": ["super+alt+1"],
         "command": "set_layout",
         "args":
         {
@@ -126,7 +125,7 @@
     },
     // 画面を横に2分割する
     {
-        "keys": ["alt+shift+2"],
+        "keys": ["super+alt+2"],
         "command": "set_layout",
         "args":
         {
@@ -137,7 +136,7 @@
     },
     // 画面を縦に２分割する
     {
-        "keys": ["alt+shift+ctrl+2"],
+        "keys": ["super+alt+shift+2"],
         "command": "set_layout",
         "args":
         {
@@ -147,19 +146,21 @@
         }
     },
     // 次のファイルに移動
-    { "keys": ["ctrl+shift+n"], "command": "next_view" },
+    { "keys": ["super+shift+]"], "command": "next_view" },
     // 前のファイルに移動
-    { "keys": ["ctrl+shift+p"], "command": "prev_view" },
+    { "keys": ["super+shift+["], "command": "prev_view" },
+
+
     // 画面移動
-    { "keys": ["alt+1"], "command": "focus_group", "args": { "group": 0 } },
-    { "keys": ["alt+2"], "command": "focus_group", "args": { "group": 1 } },
-    { "keys": ["alt+3"], "command": "focus_group", "args": { "group": 2 } },
-    { "keys": ["alt+4"], "command": "focus_group", "args": { "group": 3 } },
-    { "keys": ["alt+5"], "command": "focus_group", "args": { "group": 4 } },
-    { "keys": ["alt+6"], "command": "focus_group<p></p>", "args": { "group": 5 } },
-    { "keys": ["alt+7"], "command": "focus_group", "args": { "group": 6 } },
-    { "keys": ["alt+8"], "command": "focus_group", "args": { "group": 7 } },
-    { "keys": ["alt+9"], "command": "focus_group", "args": { "group": 8 } },
+    { "keys": ["ctrl+1"], "command": "focus_group", "args": { "group": 0 } },
+    { "keys": ["ctrl+2"], "command": "focus_group", "args": { "group": 1 } },
+    { "keys": ["ctrl+3"], "command": "focus_group", "args": { "group": 2 } },
+    { "keys": ["ctrl+4"], "command": "focus_group", "args": { "group": 3 } },
+    { "keys": ["ctrl+5"], "command": "focus_group", "args": { "group": 4 } },
+    { "keys": ["ctrl+6"], "command": "focus_group", "args": { "group": 5 } },
+    { "keys": ["ctrl+7"], "command": "focus_group", "args": { "group": 6 } },
+    { "keys": ["ctrl+8"], "command": "focus_group", "args": { "group": 7 } },
+    { "keys": ["ctrl+9"], "command": "focus_group", "args": { "group": 8 } },
     // ファイルの画面移動
     { "keys": ["ctrl+shift+1"], "command": "move_to_group", "args": { "group": 0 } },
     { "keys": ["ctrl+shift+2"], "command": "move_to_group", "args": { "group": 1 } },
