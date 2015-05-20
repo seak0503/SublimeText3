@@ -3,7 +3,7 @@
     コマンドパレット関連
      */
     // コマンドパレットを表示する
-    { "keys": ["super+ctrl+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["super+shift+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
 
 
     /*
@@ -112,6 +112,12 @@
     /*
     表示関連
      */
+    // 新規ウインドウ表示
+    { "keys": ["super+shift+n"], "command": "new_window" },
+
+    // プロジェクトの切り替え
+    { "keys": ["super+ctrl+p"], "command": "prompt_select_workspace" },
+
     // 分割せず、１画面にする
    {
         "keys": ["super+alt+1"],
