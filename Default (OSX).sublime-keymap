@@ -184,4 +184,18 @@
     { "keys": ["ctrl+shift+9"], "command": "move_to_group", "args": { "group": 8 } },
     // フルスクリーンにする
     { "keys": ["ctrl+shift+f"], "command": "toggle_full_screen" },
+
+    // 印刷
+    {
+        "keys": ["ctrl+alt+p"],
+        "command": "export_html",
+        "args": {
+            "numbers": true,
+            "wrap": 900,
+            "browser_print": true,
+            "multi_select": true,
+            "color_scheme": "Packages/ExportHtml/ColorSchemes/Print-Color.tmTheme",
+            "style_gutter": false
+        }
+    },
 ]
