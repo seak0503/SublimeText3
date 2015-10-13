@@ -1,0 +1,7 @@
+{
+    "cmd": ["javac -J-Dfile.encoding=UTF-8 $file_name && java -Dfile.encoding=UTF-8 $file_base_name"],
+    "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+    "path": "/usr/bin/",
+    "selector": "source.java",
+    "shell": true
+}
