@@ -157,9 +157,9 @@
         }
     },
     // 次のファイルに移動
-    { "keys": ["super+shift+]"], "command": "next_view" },
+    { "keys": ["super+]"], "command": "next_view" },
     // 前のファイルに移動
-    { "keys": ["super+shift+["], "command": "prev_view" },
+    { "keys": ["super+["], "command": "prev_view" },
 
 
     // 画面移動
