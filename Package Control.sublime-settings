@@ -17,6 +17,7 @@
 		"BracketHighlighter",
 		"Browser Refresh",
 		"BufferScroll",
+		"codic-sublime-plugin",
 		"ColorPicker",
 		"Dotfiles Syntax Highlighting",
 		"Emmet",
@@ -60,6 +61,7 @@
 	[
 		"https://github.com/jlangston/BlockCursorEverywhere.git",
 		"https://github.com/mhartl/rails_tutorial_snippets",
-		"https://github.com/noklesta/SublimeRailsNav/tree/ST3"
+		"https://github.com/noklesta/SublimeRailsNav/tree/ST3",
+		"https://github.com/codic-project/codic-sublime-plugin"
 	]
 }
