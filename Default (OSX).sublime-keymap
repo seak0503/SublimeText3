@@ -118,7 +118,7 @@
     表示関連
      */
     // 新規ウインドウ表示
-    { "keys": ["super+shift+n"], "command": "new_window" },
+    { "keys": ["super+n"], "command": "new_window" },
 
     // プロジェクトの切り替え
     { "keys": ["super+ctrl+p"], "command": "prompt_select_workspace" },
@@ -137,6 +137,17 @@
     // 画面を横に2分割する
     {
         "keys": ["super+alt+2"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 1.0],
+            "rows": [0.0, 0.5, 1.0],
+            "cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+        }
+    },
+    // 画面を横に3分割する
+    {
+        "keys": ["super+alt+3"],
         "command": "set_layout",
         "args":
         {
@@ -183,7 +194,7 @@
     { "keys": ["ctrl+shift+8"], "command": "move_to_group", "args": { "group": 7 } },
     { "keys": ["ctrl+shift+9"], "command": "move_to_group", "args": { "group": 8 } },
     // フルスクリーンにする
-    { "keys": ["ctrl+shift+f"], "command": "toggle_full_screen" },
+    { "keys": ["super+ctrl+f"], "command": "toggle_full_screen" },
 
     // 印刷
     {
