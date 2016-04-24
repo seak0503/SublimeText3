@@ -45,8 +45,8 @@
         "keys": ["super+s"], "command": "browser_refresh", "args": {
             "auto_save": true,
             "delay": 0.0,
-            "activate_browser": true,
-            "browser_name" : "Safari"
+            "activate": true,
+            "browsers" : ["chrome"]
         }
     },
     // 拡張パッケージGoto-CSS-Declarationを使ってCSSの宣言を探す
