@@ -12,11 +12,12 @@
 	"draw_white_space": "all",
 	"enabled": true,
 	"ensure_newline_at_eof_on_save": false,
-	"font_face": "Ricty",
+	"font_face": "RictyDiminished-Regular",
 	"font_size": 18,
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"BufferScroll"
 	],
 	"indent_guide_options":
 	[
