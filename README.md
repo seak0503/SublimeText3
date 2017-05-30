@@ -19,7 +19,7 @@ $ cd ~/Library/Application Support/Sublime Text 3/Packages
 
 $ rm -rf User
 
-$ git clone git@github.com:seak0503/macOSX10SublimeText3Setting.git User
+$ git clone git@github.com:seak0503/SublimeText3.git User
 ```
 
 1. Sublime Textを起動する
@@ -92,12 +92,3 @@ SublimeLinterに関して
 
 * 他にインストールするもの
 
-LiveReloadについて
----------------------
-
-ファイルを保存すると、ブラウザを自動更新するパッケージです。
-
-LiveReloadを利用するにはブラウザ側にエクステンションをインストールする
-必要があります。
-
-ダウンロードは[こちら](http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-)から
