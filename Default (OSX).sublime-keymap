@@ -95,6 +95,8 @@
     { "keys": ["ctrl+shift+r"], "command": "reindent" },
     // 拡張パッケージSublimeERBを使って、<%=%>,<% %>,<%- -%>,<%= -%>,<%# %>,<% -%>を簡単に入力する
     { "keys": ["ctrl+shift+."], "command": "erb"},
+    // 拡張パッケージAbacusを使って、複数行変数定義のインデントを揃える
+    { "keys": ["super+ctrl+i"], "command": "abacus"},
 
 
     /*
