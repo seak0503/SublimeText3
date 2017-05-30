@@ -2,7 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"BufferScroll"
 	],
 	"installed_packages":
 	[
@@ -15,7 +14,6 @@
 		"Bootstrap 3 Snippets",
 		"BracketHighlighter",
 		"Browser Refresh",
-		"BufferScroll",
 		"Capybara Snippets",
 		"codic-sublime-plugin",
 		"ColorPicker",
