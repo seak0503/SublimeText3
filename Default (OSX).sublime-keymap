@@ -38,6 +38,9 @@
     /*
     HTML,CSS関連
      */
+    // HTML5のコード雛形に変換する: Emmet拡張機能
+    // !を入力した後に、tabキーを押す
+
     // 拡張パッケージView in Browserを使ってChromeを開く
     { "keys": [ "ctrl+option+b" ], "command": "view_in_browser", "args": { "browser": "chrome" } },
     // 拡張パッケージ Brower Refleshを使って、command+sでHTMLファイルを更新すると自動的にブラウザを更新するようにする
