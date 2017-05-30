@@ -60,8 +60,6 @@
     },
     // 拡張パッケージColorpickerを使ってSublime Text内でカラーピッカーを使用できるようにする
     { "keys": ["super+shift+c"], "command": "color_pick" },
-    // 拡張パッケージAlignmentを使って、選択範囲のコード整形を行う
-    { "keys": ["super+ctrl+a"], "command": "alignment"},
     // htmlタグを閉じる
     { "keys": ["super+alt+."], "command": "close_tag" },
     // タグの中身を選択する
