@@ -1,6 +1,6 @@
 {
     "user": {
-        "debug": false,
+        "debug": true,
         "delay": 0.25,
         "error_color": "D02000",
         "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
@@ -41,6 +41,18 @@
                 "@disable": false,
                 "args": [],
                 "excludes": []
+            },
+            "sass": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "scss": {
+                "@disable": false,
+                "args": [],
+                "exclude-linter": "",
+                "excludes": [],
+                "include-linter": ""
             },
             "shellcheck": {
                 "@disable": false,

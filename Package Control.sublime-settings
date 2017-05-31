@@ -35,6 +35,7 @@
 		"sublime-github",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"SublimeLinter-contrib-scss-lint",
 		"SublimeLinter-csslint",
 		"SublimeLinter-html-tidy",
 		"SublimeRailsNav",
