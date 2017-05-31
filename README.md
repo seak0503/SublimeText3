@@ -56,7 +56,7 @@ SublimeLinterに関して
 * 参考URL: https://github.com/SublimeLinter/SublimeLinter-html-tidy
 
 * 他にインストールするもの:
-   * `brew install homebrew/dupes/tidy`を実行
+   * `brew install tidy-html5`でインストールし、`tidy -v`で結果が表示されればOK
 
 **SublimeLinter-javac**
 

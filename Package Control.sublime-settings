@@ -36,6 +36,7 @@
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-csslint",
+		"SublimeLinter-html-tidy",
 		"SublimeRailsNav",
 		"Surround",
 		"Theme - itg.flat",
