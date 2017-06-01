@@ -65,8 +65,10 @@
         "no_column_highlights_line": false,
         "passive_warnings": false,
         "paths": {
-            "linux": [],
-            "osx": [],
+            "linux": ["~/.rbenv/shims"],
+            "osx": [
+                "~/.rbenv/shims"
+            ],
             "windows": []
         },
         "python_paths": {
