@@ -1,5 +1,11 @@
 [
     /*
+    ターミナル
+    */
+    //ターミナルを開く
+    { "keys": ["super+option+t"], "command": "terminal_view_open" },
+
+    /*
     キーボード入力設定
     */
     // バックスラッシュキーを入力したら¥マークではなく、バックスラッシュが入力されるようにする
@@ -92,7 +98,7 @@
     { "keys": ["ctrl+shift+t"], "command": "delete_trailing_spaces" },
     // 拡張パッケージTrailing Spacesにおる、半角スペースハイライトの表示オンオフ切り替え
     { "keys": ["ctrl+shift+d"], "command": "toggle_trailing_spaces" },
-    // Reindent
+    // Reinden
     { "keys": ["ctrl+shift+r"], "command": "reindent" },
     // 選択範囲のコード整形を行う: 拡張パッケージAbacus
     { "keys": ["super+ctrl+alt+]"], "command": "abacus" },
@@ -225,4 +231,5 @@
             "style_gutter": false
         }
     },
+
 ]
