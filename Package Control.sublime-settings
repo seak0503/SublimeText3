@@ -27,7 +27,6 @@
 		"Foundation 6 Autocomplete",
 		"Goto-CSS-Declaration",
 		"Local History",
-		"Markdown Preview",
 		"MySQL Snippets",
 		"Package Control",
 		"ReactJS",
@@ -49,7 +48,8 @@
 		"Theme - itg.flat",
 		"TrailingSpaces",
 		"View In Browser",
-		"Vintageous"
+		"Vintageous",
+		"MarkdownPreview"
 	],
 	"repositories":
 	[
